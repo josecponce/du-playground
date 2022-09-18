@@ -1,0 +1,78 @@
+{
+  "cli": {
+    "fmtVersion": 2
+  },
+  "name": "du-playground",
+  "description": "",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "network-test-client": {
+      "name": "network-test-client",
+      "type": "control",
+      "slots": {
+        "emitter": {
+          "name": "emitter",
+          "type": null
+        },
+        "receiver": {
+          "name": "receiver",
+          "type": "receiver"
+        }
+      }
+    },
+    "network-test-server": {
+      "name": "network-test-server",
+      "type": "control",
+      "slots": {
+        "emitter": {
+          "name": "emitter",
+          "type": null
+        },
+        "receiver": {
+          "name": "receiver",
+          "type": "receiver"
+        }
+      }
+    },
+    "network-request-client": {
+      "name": "network-request-client",
+      "type": "control",
+      "slots": {
+        "emitter": {
+          "name": "emitter",
+          "type": null
+        },
+        "receiver": {
+          "name": "receiver",
+          "type": "receiver"
+        }
+      }
+    },
+    "network-request-server": {
+      "name": "network-request-server",
+      "type": "control",
+      "slots": {
+        "emitter": {
+          "name": "emitter",
+          "type": null
+        },
+        "receiver": {
+          "name": "receiver",
+          "type": "receiver"
+        },
+        "switch": {
+          "name": "switch",
+          "type": null
+        }
+      }
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": false,
+      "minify": false
+    }
+  }
+}
